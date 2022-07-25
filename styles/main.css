@@ -1,0 +1,88 @@
+
+body{
+  background: rgb(232, 216, 243);}
+
+h1 {color:rgb(127, 7, 187);
+font-weight:900;
+font-size: 80px;
+text-align: center;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin: 0 auto;
+padding: 0%;
+ }
+
+h2 {
+border: 1px solid saddlebrown;
+border-radius: 3px;
+text-align: center;
+font-size:60px;
+line-height: 1.1;
+font-weight: 800;
+color: darkcyan;
+background: plum;
+}
+p {
+border-radius: 3px;
+text-align: center;
+font-size: 30px;
+line-height: 40px;
+font-weight: 900;
+color: whitesmoke;
+background: rgba(214, 5, 50, 0.719);
+margin: 5px;
+}
+p.cardbox {
+  background:rgb(243, 198, 198);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color:rgb(91, 11, 167);
+  margin: 3px;
+}
+
+button.stylebutton { 
+  border-radius: 120px;
+  height: 240px;
+  width: 240px;
+  background: darkblue;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  float: right;
+}
+
+
+#title {
+  background: rgb(240, 174, 185);
+  font-family: 'Lucida Bright','Lucida Sans', 'Lucida Grande', Geneva, Verdana, sans-serif;
+  color: sienna;
+  font-size: 50px;
+  padding: 5px;
+
+}
+#description {
+  background: plum;
+  font-family: 'Lucida Bright','Lucida Sans', 'Lucida Grande', Geneva, Verdana, sans-serif;
+  color: saddlebrown;
+  font-size: 40px;
+  line-height: 50px;
+  padding: 20px;
+  position: inline;
+
+}
+
+header .title1-image {
+  height: 12%;
+  width: 11%;
+  position: relative;
+  display: inline;
+  padding: 5px;
+}
+
+header .title2-image {
+  height: 12%;
+  width: 11%;
+  position: relative;
+  display: inline;
+  padding: 5px;
+}
+
