@@ -1,11 +1,12 @@
 
 body{
-  background: rgb(232, 216, 243);}
+  background: rgb(191, 168, 206);}
 
 h1 {color:rgb(127, 7, 187);
 font-weight:900;
-font-size: 80px;
-text-align: center;
+font-size: 60px;
+line-height: 60px;
+text-align: left;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 margin: 0 auto;
 padding: 0%;
@@ -15,37 +16,39 @@ h2 {
 border: 1px solid saddlebrown;
 border-radius: 3px;
 text-align: center;
-font-size:60px;
+font-size: 30px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, 'sans-serif';
 line-height: 1.1;
 font-weight: 800;
 color: darkcyan;
-background: plum;
+background: rgb(187, 186, 187);
 }
 p {
 border-radius: 3px;
 text-align: center;
 font-size: 30px;
+font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 line-height: 40px;
 font-weight: 900;
-color: whitesmoke;
-background: rgba(214, 5, 50, 0.719);
+color: lightblue;
+background: rgba(146, 13, 42, 0.719);
 margin: 5px;
 }
 p.cardbox {
-  background:rgb(243, 198, 198);
+  background:rgb(155, 112, 112);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
   color:rgb(91, 11, 167);
-  margin: 3px;
+  margin: 4px;
 }
 
 button.stylebutton { 
-  border-radius: 120px;
-  height: 240px;
-  width: 240px;
+  border-radius: 150px;
+  height: 300px;
+  width: 300px;
   background: darkblue;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   color: white;
   float: right;
 }
@@ -71,18 +74,18 @@ button.stylebutton {
 }
 
 header .title1-image {
-  height: 12%;
-  width: 11%;
+  height: 10%;
+  width: 8%;
   position: relative;
   display: inline;
+  justify-content: center;
   padding: 5px;
 }
 
-header .title2-image {
-  height: 12%;
-  width: 11%;
-  position: relative;
+ .title2-image {
+  height: 15%;
+  width: 12%;
   display: inline;
   padding: 5px;
+  z-index: 1;
 }
-
